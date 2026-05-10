@@ -1,4 +1,4 @@
-# 🪑 Automated Real-time Sitting Posture Detection
+# 🪑 Machine Learning-Based Sitting Posture Recognition for Prolonged Use of Technology in Office Environments
 A deep learning-based computer vision system designed to mitigate Musculoskeletal Disorders (MSDs) by monitoring office sitting posture. This project utilizes a hybrid approach combining **YOLOv5** for person detection and **MediaPipe** for precise skeletal landmark extraction.
 
 ## 🛠️ Tech Stack
