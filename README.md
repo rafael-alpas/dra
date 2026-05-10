@@ -1,5 +1,6 @@
 # 🪑 Automated Real-time Sitting Posture Detection
 
+## 🛠️ Tech Stack
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
@@ -33,24 +34,9 @@ The model was trained on a custom-curated dataset and achieved significant stabi
 * **Model Accuracy:** ~89.71%
 * **Model Loss:** ~29.82%
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries:** OpenCV, MediaPipe, NumPy, Pandas
-* **Deep Learning:** TensorFlow, Keras, YOLOv8
-* **Tools:** Jupyter Notebook, LabelImg
+## 📸 Sample Images
+![Posture 1](./posture1.png)
+![Posture 2](./posture2.png)
 
-## 📸 Demo Results
-| Detection UI | Posture Result |
-| :---: | :---: |
-| ![Detection](./upload.png) | ![Inference](./inference.png) |
-
-> *Note: The model demonstrates high precision in identifying slumping, leaning, and improper neck alignment.*
-
-## 📂 Project Structure
-```text
-├── dataset/             # Processed landmark CSVs
-├── models/              # Saved .h5 and TFLite models
-├── scripts/
-│   ├── train.py         # Training script with L2/Batch Norm
-│   └── infer_video.py   # Real-time inference script
-└── README.md
+## 📁 Full Documentation
+[📄 Download Full Documentation](./Office_Posture-Thesis.pdf)
